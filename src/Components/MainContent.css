@@ -1,0 +1,136 @@
+nav{
+    margin-left: 0.6rem;
+    box-shadow: 0px 1px 6px #00000029;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 0;
+}
+nav li{
+    margin: 0;
+    cursor: pointer;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    color: #707070;
+    list-style: none;
+    margin-left: 1.5rem;
+}
+
+nav .active{
+    padding-bottom: 0;
+    color: #112949;
+    border-bottom: 5px solid #112949;
+}
+.client_entities{
+    margin: 0.6rem;
+    margin-left: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px #00000029;
+}
+.content_heading{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.content_heading h2{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.3rem;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.content_heading>i{
+    margin-bottom: 0;
+    color: #3CC3F2;
+    font-size: 1.4rem;
+}
+table{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    width: 100%;
+    border-spacing:0px 10px;
+    border-radius: 5px;
+}
+table i{
+    margin-top: 16px;
+    margin-right: 10px;
+    color: #3CC3F2;
+    font-size: larger;
+}
+.table_collection{
+    box-shadow: 0px 1px 6px #00000029;
+   background-color: #F7FBFC;
+}
+.table_details{
+    box-shadow: 0px 1px 6px #00000029;
+    background-color: #F7FBFC;
+}
+.table_details th{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #707070;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.table_details td{
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+    color: #112949;
+}
+.table_heading th{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    text-align: left;
+    color: #707070;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.table_collection>td{
+    padding-left: 10px;
+    font-size: 0.7rem;
+    color: #112949;
+    height: 3rem;
+}
+.table_details h2,.table_details p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem; 
+}
+.table_details h2{
+    padding-bottom: 0.3rem;
+    color: #707070;
+    font-weight: 400;
+}
+.table_details>h2{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+.corporate_details{
+    background-color: #ffffff;
+    margin: 10px;
+    width: 97%;
+}
+.corporate_collection_details td{
+    height: 2rem;
+}
+.download_icon{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:375px){
+    .download_icon{
+        display: inline;
+    }
+}

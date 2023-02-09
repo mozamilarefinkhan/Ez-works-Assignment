@@ -1,0 +1,59 @@
+.sidebar{
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 1080px;
+    background: transparent linear-gradient(180deg, #112949 0%, #000000 100%) 0% 0%  no-repeat padding-box;
+    box-shadow: 3px 0px 3px #00000029;
+}
+.EZlogo{
+    top: 32px;
+    margin-left: 7px;
+    margin-top: 20px;
+    width: 56px;
+    height: 35px;
+}
+.sidebar_btn{
+    cursor: pointer;
+    top: 120px;
+    margin-left: 16px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #EB9CBA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.sidebar_btn:hover{
+    transition: ease-out;
+    transform: scale(1.5);
+    border: 4px solid rgb(206, 202, 202);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:680px) {
+    .sidebar{
+        display: flex;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: fit-content;
+    /* UI Properties */
+        background: transparent linear-gradient(90deg, #112949 0%, #000000 100%) 0% 0%  no-repeat padding-box;
+        box-shadow: 3px 0px 3px #00000029;
+    }
+    .EZlogo{
+    top: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 56px;
+    height: 53px;
+    }
+    .sidebar_btn{
+        display: none;
+    }
+ }
